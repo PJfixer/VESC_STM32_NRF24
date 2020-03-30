@@ -3,7 +3,7 @@
 ######################################################################
 
 BINARY		= main
-SRCFILES	= main.c usart1.c usart3.c miniprintf.c vesc/crc.c vesc/buffer.c vesc/vesc.c rtos/heap_4.c rtos/list.c rtos/port.c rtos/queue.c rtos/tasks.c rtos/opencm3.c
+SRCFILES	= main.c usart1.c usart3.c spi2.c miniprintf.c vesc/crc.c vesc/buffer.c vesc/vesc.c rtos/heap_4.c rtos/list.c rtos/port.c rtos/queue.c rtos/tasks.c rtos/opencm3.c
 LDSCRIPT	= stm32f103c8t6.ld
 
 # DEPS		= 	# Any additional dependencies for your build

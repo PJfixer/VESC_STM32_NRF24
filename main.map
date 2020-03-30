@@ -1,0 +1,2024 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-atoi.o)
+                              usart1.o (atoi)
+/home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memcpy.o)
+                              usart1.o (memcpy)
+/home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+                              miniprintf.o (strlen)
+/home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o)
+                              /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-atoi.o) (_strtol_r)
+/home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-ctype_.o)
+                              /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o) (_ctype_)
+/home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-impure.o)
+                              /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o) (_impure_ptr)
+/home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_muldf3.o)
+                              usart1.o (__aeabi_dmul)
+/home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_mulsf3.o)
+                              vesc/buffer.o (__aeabi_fmul)
+/home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubdf3.o)
+                              usart1.o (__aeabi_dsub)
+/home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_cmpdf2.o)
+                              usart1.o (__aeabi_dcmpge)
+/home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_fixdfsi.o)
+                              usart1.o (__aeabi_d2iz)
+/home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+                              vesc/buffer.o (__aeabi_i2f)
+/home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+                              vesc/buffer.o (__aeabi_fdiv)
+/home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_fixsfsi.o)
+                              vesc/buffer.o (__aeabi_f2iz)
+/home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+                              main.o (gpio_set_mode)
+/home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                              main.o (rcc_clock_setup_in_hse_8mhz_out_72mhz)
+/home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+                              spi2.o (gpio_set)
+/home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+                              spi2.o (spi_reset)
+/home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+                              spi2.o (spi_init_master)
+/home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                              usart1.o (usart_set_baudrate)
+/home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+                              /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o) (usart_send)
+/home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+                              main.o (rcc_periph_clock_enable)
+/home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+                              /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o) (flash_set_ws)
+/home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+                              (reset_handler)
+/home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+                              usart1.o (nvic_enable_irq)
+/home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+                              /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o) (cm3_assert_failed)
+/home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+                              /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o) (flash_get_status_flags)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 main.o
+ .data          0x0000000000000000        0x0 main.o
+ .bss           0x0000000000000000        0x0 main.o
+ .text          0x0000000000000000        0x0 usart1.o
+ .data          0x0000000000000000        0x0 usart1.o
+ .bss           0x0000000000000000        0x0 usart1.o
+ .rodata.usart1_printDouble.str1.1
+                0x0000000000000000        0x3 usart1.o
+ .text.usart1_printDouble
+                0x0000000000000000       0x74 usart1.o
+ .text          0x0000000000000000        0x0 usart3.o
+ .data          0x0000000000000000        0x0 usart3.o
+ .bss           0x0000000000000000        0x0 usart3.o
+ .text.usart3_putc
+                0x0000000000000000        0xc usart3.o
+ .text.usart3_printf
+                0x0000000000000000       0x4c usart3.o
+ .text          0x0000000000000000        0x0 spi2.o
+ .data          0x0000000000000000        0x0 spi2.o
+ .bss           0x0000000000000000        0x0 spi2.o
+ .text          0x0000000000000000        0x0 miniprintf.o
+ .data          0x0000000000000000        0x0 miniprintf.o
+ .bss           0x0000000000000000        0x0 miniprintf.o
+ .text.mini_sputc
+                0x0000000000000000       0x16 miniprintf.o
+ .text.mini_vprintf_uncooked
+                0x0000000000000000       0x30 miniprintf.o
+ .text.mini_snprintf
+                0x0000000000000000       0x44 miniprintf.o
+ .text          0x0000000000000000        0x0 vesc/crc.o
+ .data          0x0000000000000000        0x0 vesc/crc.o
+ .bss           0x0000000000000000        0x0 vesc/crc.o
+ .text          0x0000000000000000        0x0 vesc/buffer.o
+ .data          0x0000000000000000        0x0 vesc/buffer.o
+ .bss           0x0000000000000000        0x0 vesc/buffer.o
+ .text.buffer_append_int16
+                0x0000000000000000       0x16 vesc/buffer.o
+ .text.buffer_append_uint16
+                0x0000000000000000       0x16 vesc/buffer.o
+ .text.buffer_append_uint32
+                0x0000000000000000       0x2a vesc/buffer.o
+ .text.buffer_append_float16
+                0x0000000000000000       0x20 vesc/buffer.o
+ .text.buffer_append_float32
+                0x0000000000000000       0x20 vesc/buffer.o
+ .text.buffer_get_uint16
+                0x0000000000000000       0x14 vesc/buffer.o
+ .text.buffer_get_uint32
+                0x0000000000000000       0x20 vesc/buffer.o
+ .text.buffer_get_bool
+                0x0000000000000000        0xc vesc/buffer.o
+ .text.buffer_append_bool
+                0x0000000000000000       0x18 vesc/buffer.o
+ .text          0x0000000000000000        0x0 vesc/vesc.o
+ .data          0x0000000000000000        0x0 vesc/vesc.o
+ .bss           0x0000000000000000        0x0 vesc/vesc.o
+ .text.setNunchuckValues
+                0x0000000000000000       0x64 vesc/vesc.o
+ .bss.nunchuck  0x0000000000000000        0xc vesc/vesc.o
+ .text          0x0000000000000000        0x0 rtos/heap_4.o
+ .data          0x0000000000000000        0x0 rtos/heap_4.o
+ .bss           0x0000000000000000        0x0 rtos/heap_4.o
+ .text.xPortGetFreeHeapSize
+                0x0000000000000000        0xc rtos/heap_4.o
+ .text.xPortGetMinimumEverFreeHeapSize
+                0x0000000000000000        0xc rtos/heap_4.o
+ .text.vPortInitialiseBlocks
+                0x0000000000000000        0x2 rtos/heap_4.o
+ .text          0x0000000000000000        0x0 rtos/list.o
+ .data          0x0000000000000000        0x0 rtos/list.o
+ .bss           0x0000000000000000        0x0 rtos/list.o
+ .text          0x0000000000000000        0x0 rtos/port.o
+ .data          0x0000000000000000        0x0 rtos/port.o
+ .bss           0x0000000000000000        0x0 rtos/port.o
+ .text.vPortEndScheduler
+                0x0000000000000000        0x2 rtos/port.o
+ .text          0x0000000000000000        0x0 rtos/queue.o
+ .data          0x0000000000000000        0x0 rtos/queue.o
+ .bss           0x0000000000000000        0x0 rtos/queue.o
+ .text.prvCopyDataFromQueue
+                0x0000000000000000       0x28 rtos/queue.o
+ .text.xQueueGenericSendFromISR
+                0x0000000000000000       0x68 rtos/queue.o
+ .text.xQueueGiveFromISR
+                0x0000000000000000       0x5c rtos/queue.o
+ .text.xQueueReceive
+                0x0000000000000000       0xf0 rtos/queue.o
+ .text.xQueuePeek
+                0x0000000000000000       0xf0 rtos/queue.o
+ .text.xQueueReceiveFromISR
+                0x0000000000000000       0x68 rtos/queue.o
+ .text.xQueuePeekFromISR
+                0x0000000000000000       0x30 rtos/queue.o
+ .text.uxQueueMessagesWaiting
+                0x0000000000000000       0x12 rtos/queue.o
+ .text.uxQueueSpacesAvailable
+                0x0000000000000000       0x16 rtos/queue.o
+ .text.uxQueueMessagesWaitingFromISR
+                0x0000000000000000        0x4 rtos/queue.o
+ .text.vQueueDelete
+                0x0000000000000000        0x4 rtos/queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x0000000000000000        0xa rtos/queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x0000000000000000        0xc rtos/queue.o
+ .text          0x0000000000000000        0x0 rtos/tasks.o
+ .data          0x0000000000000000        0x0 rtos/tasks.o
+ .bss           0x0000000000000000        0x0 rtos/tasks.o
+ .text.vTaskDelete
+                0x0000000000000000       0xbc rtos/tasks.o
+ .text.uxTaskPriorityGet
+                0x0000000000000000       0x1c rtos/tasks.o
+ .text.uxTaskPriorityGetFromISR
+                0x0000000000000000       0x28 rtos/tasks.o
+ .text.vTaskPrioritySet
+                0x0000000000000000       0xc8 rtos/tasks.o
+ .text.vTaskResume
+                0x0000000000000000       0x84 rtos/tasks.o
+ .text.xTaskResumeFromISR
+                0x0000000000000000       0x90 rtos/tasks.o
+ .text.vTaskEndScheduler
+                0x0000000000000000       0x20 rtos/tasks.o
+ .text.xTaskGetTickCount
+                0x0000000000000000        0xc rtos/tasks.o
+ .text.xTaskGetTickCountFromISR
+                0x0000000000000000        0xc rtos/tasks.o
+ .text.uxTaskGetNumberOfTasks
+                0x0000000000000000        0xc rtos/tasks.o
+ .text.pcTaskGetName
+                0x0000000000000000       0x10 rtos/tasks.o
+ .text.vTaskDelayUntil
+                0x0000000000000000       0x4c rtos/tasks.o
+ .text.vTaskSuspend
+                0x0000000000000000       0xbc rtos/tasks.o
+ .text.vTaskPlaceOnUnorderedEventList
+                0x0000000000000000       0x28 rtos/tasks.o
+ .text.vTaskRemoveFromUnorderedEventList
+                0x0000000000000000       0x58 rtos/tasks.o
+ .text.vTaskSetTimeOutState
+                0x0000000000000000       0x24 rtos/tasks.o
+ .text.xTaskGetCurrentTaskHandle
+                0x0000000000000000        0xc rtos/tasks.o
+ .text.uxTaskResetEventItemValue
+                0x0000000000000000       0x18 rtos/tasks.o
+ .text.xTaskNotifyWait
+                0x0000000000000000       0x88 rtos/tasks.o
+ .text.xTaskGenericNotify
+                0x0000000000000000       0xa4 rtos/tasks.o
+ .text.xTaskGenericNotifyFromISR
+                0x0000000000000000       0xc4 rtos/tasks.o
+ .text.xTaskNotifyStateClear
+                0x0000000000000000       0x2c rtos/tasks.o
+ .text          0x0000000000000000        0x0 rtos/opencm3.o
+ .data          0x0000000000000000        0x0 rtos/opencm3.o
+ .bss           0x0000000000000000        0x0 rtos/opencm3.o
+ .text          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-atoi.o)
+ .data          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-atoi.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-atoi.o)
+ .text._atoi_r  0x0000000000000000        0x8 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-atoi.o)
+ .data          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memcpy.o)
+ .text          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+ .data          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+ .text          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o)
+ .data          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o)
+ .text._strtol_r
+                0x0000000000000000        0x4 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o)
+ .text.strtol_l
+                0x0000000000000000       0x18 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o)
+ .text          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-ctype_.o)
+ .data          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-ctype_.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-ctype_.o)
+ .text          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x0000000000000000        0x4 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-impure.o)
+ .text          0x0000000000000000      0x254 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_muldf3.o)
+ .data          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_muldf3.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_muldf3.o)
+ .debug_frame   0x0000000000000000       0x30 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_muldf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x1d /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_muldf3.o)
+ .text          0x0000000000000000      0x168 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_mulsf3.o)
+ .data          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_mulsf3.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_mulsf3.o)
+ .debug_frame   0x0000000000000000       0x24 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_mulsf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x1d /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_mulsf3.o)
+ .text          0x0000000000000000      0x378 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubdf3.o)
+ .data          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x0000000000000000       0xac /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x1d /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubdf3.o)
+ .text          0x0000000000000000      0x110 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_cmpdf2.o)
+ .data          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x0000000000000000       0xc4 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x0000000000000000       0x1d /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_cmpdf2.o)
+ .text          0x0000000000000000       0x50 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_fixdfsi.o)
+ .data          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_fixdfsi.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x0000000000000000       0x24 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x0000000000000000       0x1d /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_fixdfsi.o)
+ .data          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .data          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .text          0x0000000000000000       0x4c /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_fixsfsi.o)
+ .data          0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_fixsfsi.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_fixsfsi.o)
+ .debug_frame   0x0000000000000000       0x24 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_fixsfsi.o)
+ .ARM.attributes
+                0x0000000000000000       0x1d /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_fixsfsi.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .text          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .data          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .text.gpio_set_eventout
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .text.gpio_primary_remap
+                0x0000000000000000       0x14 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .text.gpio_secondary_remap
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .data          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_ready_int_clear
+                0x0000000000000000       0x5c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_ready_int_enable
+                0x0000000000000000       0x5c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_ready_int_disable
+                0x0000000000000000       0x5c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_ready_int_flag
+                0x0000000000000000       0x54 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_css_int_clear
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_css_int_flag
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_off
+                0x0000000000000000       0x58 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_css_enable
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_css_disable
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_pll2_multiplication_factor
+                0x0000000000000000       0x14 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_pll3_multiplication_factor
+                0x0000000000000000       0x14 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_rtc_clock_enabled_flag
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_enable_rtc_clock
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_rtc_clock_source
+                0x0000000000000000       0x90 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_usbpre
+                0x0000000000000000       0x18 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_prediv1
+                0x0000000000000000       0x14 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_prediv2
+                0x0000000000000000       0x14 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_prediv1_source
+                0x0000000000000000       0x18 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_system_clock_source
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hsi_out_64mhz
+                0x0000000000000000       0x74 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hsi_out_48mhz
+                0x0000000000000000       0x84 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hsi_out_24mhz
+                0x0000000000000000       0x70 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hse_8mhz_out_24mhz
+                0x0000000000000000       0x88 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hse_12mhz_out_72mhz
+                0x0000000000000000       0x8c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hse_16mhz_out_72mhz
+                0x0000000000000000       0x8c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hse_25mhz_out_72mhz
+                0x0000000000000000       0xac /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_backupdomain_reset
+                0x0000000000000000       0x18 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x56 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x51 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0xef /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x6a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000      0x1df /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0xfa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x58 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .text          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .data          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_get
+                0x0000000000000000        0x6 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_port_read
+                0x0000000000000000        0x6 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_port_write
+                0x0000000000000000        0x4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_port_config_lock
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x56 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x51 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0xef /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x6a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000      0x1df /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0xfa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x58 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x76 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000      0xdfd /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .data          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_disable
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_clean_disable
+                0x0000000000000000       0x26 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_write
+                0x0000000000000000        0x4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_send
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_read
+                0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_set_bidirectional_mode
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_set_unidirectional_mode
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_set_bidirectional_receive_only_mode
+                0x0000000000000000       0x12 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_set_bidirectional_transmit_only_mode
+                0x0000000000000000       0x12 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_enable_crc
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_disable_crc
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_set_next_tx_from_buffer
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_set_next_tx_from_crc
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_set_full_duplex_mode
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_set_receive_only_mode
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_enable_software_slave_management
+                0x0000000000000000       0x12 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_set_nss_high
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_set_nss_low
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_send_lsb_first
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_send_msb_first
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_set_baudrate_prescaler
+                0x0000000000000000       0x16 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_set_master_mode
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_set_slave_mode
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_set_clock_polarity_1
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_set_clock_polarity_0
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_set_clock_phase_1
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_set_clock_phase_0
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_enable_tx_buffer_empty_interrupt
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_disable_tx_buffer_empty_interrupt
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_enable_rx_buffer_not_empty_interrupt
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_disable_rx_buffer_not_empty_interrupt
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_enable_error_interrupt
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_disable_error_interrupt
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_enable_ss_output
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_disable_ss_output
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_enable_tx_dma
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_disable_tx_dma
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_enable_rx_dma
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_disable_rx_dma
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .text.spi_set_standard_mode
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_macro   0x0000000000000000       0x56 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_macro   0x0000000000000000       0x51 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_macro   0x0000000000000000       0xef /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_macro   0x0000000000000000       0x6a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_macro   0x0000000000000000      0x1df /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_macro   0x0000000000000000       0xfa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_macro   0x0000000000000000       0x58 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_macro   0x0000000000000000      0x82c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .text          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .data          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .text.spi_set_dff_8bit
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .text.spi_set_dff_16bit
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_macro   0x0000000000000000       0x56 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_macro   0x0000000000000000       0x51 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_macro   0x0000000000000000       0xef /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_macro   0x0000000000000000       0x6a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_macro   0x0000000000000000      0x1df /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_macro   0x0000000000000000       0xfa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_macro   0x0000000000000000       0x58 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_macro   0x0000000000000000      0x2eb /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_macro   0x0000000000000000       0x16 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_macro   0x0000000000000000      0x82c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .data          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_disable
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_enable_rx_dma
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_disable_rx_dma
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_enable_tx_dma
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_disable_tx_dma
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_disable_rx_interrupt
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_enable_tx_interrupt
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_disable_tx_interrupt
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_enable_error_interrupt
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_disable_error_interrupt
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x56 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x51 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0xef /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x6a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000      0x1df /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0xfa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x58 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000      0x82c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .text          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .data          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .text.usart_get_flag
+                0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x56 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x51 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0xef /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x6a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000      0x1df /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0xfa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x58 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x94 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000      0x29e /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000      0x82c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .data          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_peripheral_enable_clock
+                0x0000000000000000        0x8 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_peripheral_disable_clock
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_peripheral_reset
+                0x0000000000000000        0x8 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_peripheral_clear_reset
+                0x0000000000000000        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_periph_clock_disable
+                0x0000000000000000       0x1e /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_periph_reset_hold
+                0x0000000000000000        0x4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_periph_reset_release
+                0x0000000000000000        0x4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_set_mco
+                0x0000000000000000       0x14 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_osc_bypass_enable
+                0x0000000000000000       0x28 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_osc_bypass_disable
+                0x0000000000000000       0x28 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x56 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x51 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0xef /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x6a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000      0x1df /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0xfa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x58 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000      0x82c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .data          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_prefetch_buffer_enable
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_prefetch_buffer_disable
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_unlock
+                0x0000000000000000       0x24 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_lock
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_clear_pgerr_flag
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_clear_eop_flag
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_clear_wrprterr_flag
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_clear_bsy_flag
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_wait_for_last_operation
+                0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_program_word
+                0x0000000000000000       0x18 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_unlock_option_bytes
+                0x0000000000000000       0x18 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_erase_option_bytes
+                0x0000000000000000       0x34 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_program_option_bytes
+                0x0000000000000000       0x34 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0x56 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0x51 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0xef /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0x6a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000      0x1df /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0xfa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0x58 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0xdc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0x82 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .text          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .data          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x58 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x56 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x51 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0xef /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x6a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000      0x1df /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0xfa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .data          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_disable_irq
+                0x0000000000000000       0x18 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_get_pending_irq
+                0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_set_pending_irq
+                0x0000000000000000       0x1a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_clear_pending_irq
+                0x0000000000000000       0x18 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_get_irq_enabled
+                0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_set_priority
+                0x0000000000000000       0x20 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_get_active_irq
+                0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_generate_software_interrupt
+                0x0000000000000000       0x14 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x56 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x51 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0xef /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x6a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000      0x1df /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0xfa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x58 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000      0x1a2 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .text          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .data          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .text.cm3_assert_failed
+                0x0000000000000000        0x2 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .text.cm3_assert_failed_verbose
+                0x0000000000000000        0x6 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_info    0x0000000000000000      0x104 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_abbrev  0x0000000000000000       0x98 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_loc     0x0000000000000000       0x94 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_aranges
+                0x0000000000000000       0x28 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_ranges  0x0000000000000000       0x18 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x8a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x56 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x51 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0xef /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x6a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000      0x1df /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0xfa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x16 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_line    0x0000000000000000      0x24f /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_str     0x0000000000000000     0x40e2 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .comment       0x0000000000000000       0x7a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_frame   0x0000000000000000       0x38 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .data          0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .bss           0x0000000000000000        0x0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_halfcycle_enable
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_halfcycle_disable
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_unlock_upper
+                0x0000000000000000       0x34 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_lock_upper
+                0x0000000000000000       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_clear_pgerr_flag_upper
+                0x0000000000000000       0x20 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_clear_eop_flag_upper
+                0x0000000000000000       0x20 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_clear_wrprterr_flag_upper
+                0x0000000000000000       0x20 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_clear_bsy_flag_upper
+                0x0000000000000000       0x20 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_clear_status_flags
+                0x0000000000000000       0x38 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_get_status_flags
+                0x0000000000000000       0x28 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_program_half_word
+                0x0000000000000000       0x64 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_erase_page
+                0x0000000000000000       0x7c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_erase_all_pages
+                0x0000000000000000       0x48 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_info    0x0000000000000000      0x33d /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_abbrev  0x0000000000000000      0x14f /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_loc     0x0000000000000000       0x90 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_aranges
+                0x0000000000000000       0x80 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_ranges  0x0000000000000000       0x70 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0xc9 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0x56 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0x51 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0xef /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0x6a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000      0x1df /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0xfa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0x58 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0xdc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0x82 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_line    0x0000000000000000      0x5b4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_str     0x0000000000000000     0x5648 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .comment       0x0000000000000000       0x7a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_frame   0x0000000000000000      0x10c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000008000000 0x0000000000010000 xr
+ram              0x0000000020000000 0x0000000000005000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD main.o
+LOAD usart1.o
+LOAD usart3.o
+LOAD spi2.o
+LOAD miniprintf.o
+LOAD vesc/crc.o
+LOAD vesc/buffer.o
+LOAD vesc/vesc.o
+LOAD rtos/heap_4.o
+LOAD rtos/list.o
+LOAD rtos/port.o
+LOAD rtos/queue.o
+LOAD rtos/tasks.o
+LOAD rtos/opencm3.o
+START GROUP
+LOAD /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
+LOAD /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a
+LOAD /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a
+END GROUP
+LOAD /home/pierre/stm32f103c8t6//rtos/libwwg/libwwg.a
+LOAD /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a
+START GROUP
+LOAD /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a
+LOAD /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
+END GROUP
+START GROUP
+LOAD /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a
+LOAD /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
+LOAD /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a
+END GROUP
+
+.text           0x0000000008000000     0x2b90
+ *(.vectors)
+ .vectors       0x0000000008000000      0x150 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+                0x0000000008000000                vector_table
+ *(.text*)
+ .text.task1    0x0000000008000150       0x20 main.o
+ .text.startup.main
+                0x0000000008000170       0xd4 main.o
+                0x0000000008000170                main
+ .text.usart1_putc
+                0x0000000008000244        0xc usart1.o
+                0x0000000008000244                usart1_putc
+ .text.usart1_printf
+                0x0000000008000250       0x4c usart1.o
+                0x0000000008000250                usart1_printf
+ .text.usart1_setup
+                0x000000000800029c       0x8c usart1.o
+                0x000000000800029c                usart1_setup
+ .text.usart1_isr
+                0x0000000008000328       0x74 usart1.o
+                0x0000000008000328                usart1_isr
+ .text.usart1_task
+                0x000000000800039c       0x74 usart1.o
+                0x000000000800039c                usart1_task
+ .text.usart3_setup
+                0x0000000008000410       0x8c usart3.o
+                0x0000000008000410                usart3_setup
+ .text.usart3_isr
+                0x000000000800049c       0x34 usart3.o
+                0x000000000800049c                usart3_isr
+ .text.usart3_task
+                0x00000000080004d0       0x74 usart3.o
+                0x00000000080004d0                usart3_task
+ .text.init_spi2
+                0x0000000008000544       0x70 spi2.o
+                0x0000000008000544                init_spi2
+ .text.spi2_write
+                0x00000000080005b4       0x30 spi2.o
+                0x00000000080005b4                spi2_write
+ .text.spi2_task
+                0x00000000080005e4       0x1c spi2.o
+                0x00000000080005e4                spi2_task
+ .text.mini_write
+                0x0000000008000600       0x16 miniprintf.o
+ .text.mini_putc
+                0x0000000008000616       0x2a miniprintf.o
+ .text.mini_pad
+                0x0000000008000640       0x24 miniprintf.o
+ .text.internal_vprintf
+                0x0000000008000664      0x16c miniprintf.o
+ .text.mini_vprintf_cooked
+                0x00000000080007d0       0x30 miniprintf.o
+                0x00000000080007d0                mini_vprintf_cooked
+ .text.crc16    0x0000000008000800       0x28 vesc/crc.o
+                0x0000000008000800                crc16
+ .text.buffer_append_int32
+                0x0000000008000828       0x2a vesc/buffer.o
+                0x0000000008000828                buffer_append_int32
+ .text.buffer_get_int16
+                0x0000000008000852       0x14 vesc/buffer.o
+                0x0000000008000852                buffer_get_int16
+ .text.buffer_get_int32
+                0x0000000008000866       0x20 vesc/buffer.o
+                0x0000000008000866                buffer_get_int32
+ .text.buffer_get_float16
+                0x0000000008000886       0x16 vesc/buffer.o
+                0x0000000008000886                buffer_get_float16
+ .text.buffer_get_float32
+                0x000000000800089c       0x16 vesc/buffer.o
+                0x000000000800089c                buffer_get_float32
+ *fill*         0x00000000080008b2        0x2 
+ .text.packSendPayload
+                0x00000000080008b4       0x98 vesc/vesc.o
+                0x00000000080008b4                packSendPayload
+ .text.processReadPacket
+                0x000000000800094c       0xa0 vesc/vesc.o
+                0x000000000800094c                processReadPacket
+ .text.VescUartSetRPM
+                0x00000000080009ec       0x26 vesc/vesc.o
+                0x00000000080009ec                VescUartSetRPM
+ .text.VescUartSetRPMfwd
+                0x0000000008000a12       0x30 vesc/vesc.o
+                0x0000000008000a12                VescUartSetRPMfwd
+ .text.unpackMessage
+                0x0000000008000a42       0x1a vesc/vesc.o
+                0x0000000008000a42                unpackMessage
+ .text.getVescValues
+                0x0000000008000a5c       0x58 vesc/vesc.o
+                0x0000000008000a5c                getVescValues
+ .text.getVescValuesfwd
+                0x0000000008000ab4       0x60 vesc/vesc.o
+                0x0000000008000ab4                getVescValuesfwd
+ .text.prvInsertBlockIntoFreeList
+                0x0000000008000b14       0x48 rtos/heap_4.o
+ .text.pvPortMalloc
+                0x0000000008000b5c       0xe8 rtos/heap_4.o
+                0x0000000008000b5c                pvPortMalloc
+ .text.vPortFree
+                0x0000000008000c44       0x4c rtos/heap_4.o
+                0x0000000008000c44                vPortFree
+ .text.vListInitialise
+                0x0000000008000c90       0x16 rtos/list.o
+                0x0000000008000c90                vListInitialise
+ .text.vListInitialiseItem
+                0x0000000008000ca6        0x6 rtos/list.o
+                0x0000000008000ca6                vListInitialiseItem
+ .text.vListInsertEnd
+                0x0000000008000cac       0x18 rtos/list.o
+                0x0000000008000cac                vListInsertEnd
+ .text.vListInsert
+                0x0000000008000cc4       0x2e rtos/list.o
+                0x0000000008000cc4                vListInsert
+ .text.uxListRemove
+                0x0000000008000cf2       0x20 rtos/list.o
+                0x0000000008000cf2                uxListRemove
+ .text.prvTaskExitError
+                0x0000000008000d12       0x20 rtos/port.o
+ *fill*         0x0000000008000d32        0x2 
+ .text.prvPortStartFirstTask
+                0x0000000008000d34       0x20 rtos/port.o
+ .text.pxPortInitialiseStack
+                0x0000000008000d54       0x24 rtos/port.o
+                0x0000000008000d54                pxPortInitialiseStack
+ *fill*         0x0000000008000d78        0x8 
+ .text.vPortSVCHandler
+                0x0000000008000d80       0x24 rtos/port.o
+                0x0000000008000d80                vPortSVCHandler
+ .text.vPortEnterCritical
+                0x0000000008000da4       0x20 rtos/port.o
+                0x0000000008000da4                vPortEnterCritical
+ .text.vPortExitCritical
+                0x0000000008000dc4       0x14 rtos/port.o
+                0x0000000008000dc4                vPortExitCritical
+ *fill*         0x0000000008000dd8        0x8 
+ .text.xPortPendSVHandler
+                0x0000000008000de0       0x44 rtos/port.o
+                0x0000000008000de0                xPortPendSVHandler
+ .text.xPortSysTickHandler
+                0x0000000008000e24       0x2c rtos/port.o
+                0x0000000008000e24                xPortSysTickHandler
+ .text.vPortSetupTimerInterrupt
+                0x0000000008000e50       0x24 rtos/port.o
+                0x0000000008000e50                vPortSetupTimerInterrupt
+ .text.xPortStartScheduler
+                0x0000000008000e74       0x38 rtos/port.o
+                0x0000000008000e74                xPortStartScheduler
+ .text.prvIsQueueEmpty
+                0x0000000008000eac       0x16 rtos/queue.o
+ .text.prvCopyDataToQueue
+                0x0000000008000ec2       0x6a rtos/queue.o
+ .text.prvUnlockQueue
+                0x0000000008000f2c       0x70 rtos/queue.o
+ .text.xQueueGenericReset
+                0x0000000008000f9c       0x6c rtos/queue.o
+                0x0000000008000f9c                xQueueGenericReset
+ .text.xQueueGenericCreate
+                0x0000000008001008       0x2e rtos/queue.o
+                0x0000000008001008                xQueueGenericCreate
+ *fill*         0x0000000008001036        0x2 
+ .text.xQueueGenericSend
+                0x0000000008001038      0x104 rtos/queue.o
+                0x0000000008001038                xQueueGenericSend
+ .text.xQueueCreateMutex
+                0x000000000800113c       0x24 rtos/queue.o
+                0x000000000800113c                xQueueCreateMutex
+ .text.xQueueSemaphoreTake
+                0x0000000008001160      0x128 rtos/queue.o
+                0x0000000008001160                xQueueSemaphoreTake
+ .text.prvResetNextTaskUnblockTime
+                0x0000000008001288       0x24 rtos/tasks.o
+ .text.prvAddCurrentTaskToDelayedList
+                0x00000000080012ac       0x8c rtos/tasks.o
+ .text.prvIdleTask
+                0x0000000008001338       0x6c rtos/tasks.o
+ .text.xTaskCreate
+                0x00000000080013a4      0x1b8 rtos/tasks.o
+                0x00000000080013a4                xTaskCreate
+ .text.vTaskStartScheduler
+                0x000000000800155c       0x60 rtos/tasks.o
+                0x000000000800155c                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x00000000080015bc       0x10 rtos/tasks.o
+                0x00000000080015bc                vTaskSuspendAll
+ .text.xTaskIncrementTick
+                0x00000000080015cc      0x10c rtos/tasks.o
+                0x00000000080015cc                xTaskIncrementTick
+ .text.xTaskResumeAll
+                0x00000000080016d8       0xd8 rtos/tasks.o
+                0x00000000080016d8                xTaskResumeAll
+ .text.vTaskDelay
+                0x00000000080017b0       0x30 rtos/tasks.o
+                0x00000000080017b0                vTaskDelay
+ .text.vTaskSwitchContext
+                0x00000000080017e0       0x60 rtos/tasks.o
+                0x00000000080017e0                vTaskSwitchContext
+ .text.vTaskPlaceOnEventList
+                0x0000000008001840       0x20 rtos/tasks.o
+                0x0000000008001840                vTaskPlaceOnEventList
+ .text.xTaskRemoveFromEventList
+                0x0000000008001860       0x70 rtos/tasks.o
+                0x0000000008001860                xTaskRemoveFromEventList
+ .text.vTaskInternalSetTimeOutState
+                0x00000000080018d0       0x18 rtos/tasks.o
+                0x00000000080018d0                vTaskInternalSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x00000000080018e8       0x50 rtos/tasks.o
+                0x00000000080018e8                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x0000000008001938        0xc rtos/tasks.o
+                0x0000000008001938                vTaskMissedYield
+ .text.xTaskPriorityInherit
+                0x0000000008001944       0xa4 rtos/tasks.o
+                0x0000000008001944                xTaskPriorityInherit
+ .text.xTaskPriorityDisinherit
+                0x00000000080019e8       0x70 rtos/tasks.o
+                0x00000000080019e8                xTaskPriorityDisinherit
+ .text.vTaskPriorityDisinheritAfterTimeout
+                0x0000000008001a58       0x7c rtos/tasks.o
+                0x0000000008001a58                vTaskPriorityDisinheritAfterTimeout
+ .text.pvTaskIncrementMutexHeldCount
+                0x0000000008001ad4       0x18 rtos/tasks.o
+                0x0000000008001ad4                pvTaskIncrementMutexHeldCount
+ .text.ulTaskNotifyTake
+                0x0000000008001aec       0x64 rtos/tasks.o
+                0x0000000008001aec                ulTaskNotifyTake
+ .text.vTaskNotifyGiveFromISR
+                0x0000000008001b50       0x9c rtos/tasks.o
+                0x0000000008001b50                vTaskNotifyGiveFromISR
+ .text.sv_call_handler
+                0x0000000008001bec        0x4 rtos/opencm3.o
+                0x0000000008001bec                sv_call_handler
+ .text.pend_sv_handler
+                0x0000000008001bf0        0x4 rtos/opencm3.o
+                0x0000000008001bf0                pend_sv_handler
+ .text.sys_tick_handler
+                0x0000000008001bf4        0x4 rtos/opencm3.o
+                0x0000000008001bf4                sys_tick_handler
+ .text.atoi     0x0000000008001bf8        0x8 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-atoi.o)
+                0x0000000008001bf8                atoi
+ .text          0x0000000008001c00       0xec /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memcpy.o)
+                0x0000000008001c00                memcpy
+ .text.strlen   0x0000000008001cec       0x5c /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x0000000008001cec                strlen
+ .text._strtol_l.isra.0
+                0x0000000008001d48      0x110 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o)
+ .text.strtol   0x0000000008001e58       0x18 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o)
+                0x0000000008001e58                strtol
+ .text          0x0000000008001e70      0x21c /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+                0x0000000008001e70                __aeabi_frsub
+                0x0000000008001e78                __subsf3
+                0x0000000008001e78                __aeabi_fsub
+                0x0000000008001e7c                __aeabi_fadd
+                0x0000000008001e7c                __addsf3
+                0x0000000008001fdc                __aeabi_ui2f
+                0x0000000008001fdc                __floatunsisf
+                0x0000000008001fe4                __aeabi_i2f
+                0x0000000008001fe4                __floatsisf
+                0x0000000008002000                __floatundisf
+                0x0000000008002000                __aeabi_ul2f
+                0x0000000008002010                __floatdisf
+                0x0000000008002010                __aeabi_l2f
+ .text          0x000000000800208c      0x2a0 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+                0x000000000800208c                __mulsf3
+                0x000000000800208c                __aeabi_fmul
+                0x00000000080021f4                __divsf3
+                0x00000000080021f4                __aeabi_fdiv
+ .text.gpio_set_mode
+                0x000000000800232c       0x5e /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+                0x000000000800232c                gpio_set_mode
+ *fill*         0x000000000800238a        0x2 
+ .text.rcc_osc_on.part.0
+                0x000000000800238c       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_is_osc_ready
+                0x000000000800239c       0x5c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x000000000800239c                rcc_is_osc_ready
+ .text.rcc_wait_for_osc_ready
+                0x00000000080023f8       0x10 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x00000000080023f8                rcc_wait_for_osc_ready
+ .text.rcc_osc_on
+                0x0000000008002408       0x54 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000008002408                rcc_osc_on
+ .text.rcc_set_sysclk_source
+                0x000000000800245c       0x14 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x000000000800245c                rcc_set_sysclk_source
+ .text.rcc_set_pll_multiplication_factor
+                0x0000000008002470       0x14 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000008002470                rcc_set_pll_multiplication_factor
+ .text.rcc_set_pll_source
+                0x0000000008002484       0x14 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000008002484                rcc_set_pll_source
+ .text.rcc_set_pllxtpre
+                0x0000000008002498       0x14 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000008002498                rcc_set_pllxtpre
+ .text.rcc_set_adcpre
+                0x00000000080024ac       0x14 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x00000000080024ac                rcc_set_adcpre
+ .text.rcc_set_ppre2
+                0x00000000080024c0       0x14 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x00000000080024c0                rcc_set_ppre2
+ .text.rcc_set_ppre1
+                0x00000000080024d4       0x14 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x00000000080024d4                rcc_set_ppre1
+ .text.rcc_set_hpre
+                0x00000000080024e8       0x14 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x00000000080024e8                rcc_set_hpre
+ .text.rcc_clock_setup_in_hse_8mhz_out_72mhz
+                0x00000000080024fc       0x8c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x00000000080024fc                rcc_clock_setup_in_hse_8mhz_out_72mhz
+ .text.gpio_set
+                0x0000000008002588        0x4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+                0x0000000008002588                gpio_set
+ .text.gpio_clear
+                0x000000000800258c        0x6 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+                0x000000000800258c                gpio_clear
+ .text.gpio_toggle
+                0x0000000008002592       0x12 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+                0x0000000008002592                gpio_toggle
+ .text.spi_reset
+                0x00000000080025a4       0x30 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+                0x00000000080025a4                spi_reset
+ .text.spi_enable
+                0x00000000080025d4        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+                0x00000000080025d4                spi_enable
+ .text.spi_xfer
+                0x00000000080025de        0xe /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+                0x00000000080025de                spi_xfer
+ .text.spi_disable_software_slave_management
+                0x00000000080025ec        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+                0x00000000080025ec                spi_disable_software_slave_management
+ .text.spi_init_master
+                0x00000000080025f6       0x28 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+                0x00000000080025f6                spi_init_master
+ *fill*         0x000000000800261e        0x2 
+ .text.usart_set_baudrate
+                0x0000000008002620       0x28 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x0000000008002620                usart_set_baudrate
+ .text.usart_set_databits
+                0x0000000008002648       0x12 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x0000000008002648                usart_set_databits
+ .text.usart_set_stopbits
+                0x000000000800265a        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x000000000800265a                usart_set_stopbits
+ .text.usart_set_parity
+                0x0000000008002666        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x0000000008002666                usart_set_parity
+ .text.usart_set_mode
+                0x0000000008002672        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x0000000008002672                usart_set_mode
+ .text.usart_set_flow_control
+                0x000000000800267e        0xc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x000000000800267e                usart_set_flow_control
+ .text.usart_enable
+                0x000000000800268a        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x000000000800268a                usart_enable
+ .text.usart_send_blocking
+                0x0000000008002694       0x16 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x0000000008002694                usart_send_blocking
+ .text.usart_recv_blocking
+                0x00000000080026aa       0x12 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x00000000080026aa                usart_recv_blocking
+ .text.usart_enable_rx_interrupt
+                0x00000000080026bc        0xa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x00000000080026bc                usart_enable_rx_interrupt
+ .text.usart_send
+                0x00000000080026c6        0x8 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+                0x00000000080026c6                usart_send
+ .text.usart_recv
+                0x00000000080026ce        0x8 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+                0x00000000080026ce                usart_recv
+ .text.usart_wait_send_ready
+                0x00000000080026d6        0x8 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+                0x00000000080026d6                usart_wait_send_ready
+ .text.usart_wait_recv_ready
+                0x00000000080026de        0x8 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+                0x00000000080026de                usart_wait_recv_ready
+ .text.rcc_periph_clock_enable
+                0x00000000080026e6       0x1c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+                0x00000000080026e6                rcc_periph_clock_enable
+ .text.rcc_periph_reset_pulse
+                0x0000000008002702       0x24 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+                0x0000000008002702                rcc_periph_reset_pulse
+ *fill*         0x0000000008002726        0x2 
+ .text.flash_set_ws
+                0x0000000008002728       0x14 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+                0x0000000008002728                flash_set_ws
+ .text.blocking_handler
+                0x000000000800273c        0x2 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+                0x000000000800273c                rtc_isr
+                0x000000000800273c                tim7_isr
+                0x000000000800273c                adc1_2_isr
+                0x000000000800273c                tim1_trg_com_isr
+                0x000000000800273c                usb_hp_can_tx_isr
+                0x000000000800273c                tim6_isr
+                0x000000000800273c                usb_wakeup_isr
+                0x000000000800273c                blocking_handler
+                0x000000000800273c                tim5_isr
+                0x000000000800273c                otg_fs_isr
+                0x000000000800273c                spi1_isr
+                0x000000000800273c                exti2_isr
+                0x000000000800273c                dma1_channel6_isr
+                0x000000000800273c                can_rx1_isr
+                0x000000000800273c                dma1_channel5_isr
+                0x000000000800273c                dma2_channel5_isr
+                0x000000000800273c                usage_fault_handler
+                0x000000000800273c                tim8_trg_com_isr
+                0x000000000800273c                can2_rx0_isr
+                0x000000000800273c                tim1_brk_isr
+                0x000000000800273c                can2_rx1_isr
+                0x000000000800273c                tim1_cc_isr
+                0x000000000800273c                sdio_isr
+                0x000000000800273c                eth_isr
+                0x000000000800273c                dma1_channel4_isr
+                0x000000000800273c                tim8_brk_isr
+                0x000000000800273c                dma2_channel4_5_isr
+                0x000000000800273c                pvd_isr
+                0x000000000800273c                rcc_isr
+                0x000000000800273c                flash_isr
+                0x000000000800273c                uart4_isr
+                0x000000000800273c                rtc_alarm_isr
+                0x000000000800273c                exti15_10_isr
+                0x000000000800273c                hard_fault_handler
+                0x000000000800273c                exti1_isr
+                0x000000000800273c                i2c1_ev_isr
+                0x000000000800273c                dma2_channel1_isr
+                0x000000000800273c                spi2_isr
+                0x000000000800273c                tim8_up_isr
+                0x000000000800273c                dma2_channel2_isr
+                0x000000000800273c                exti3_isr
+                0x000000000800273c                adc3_isr
+                0x000000000800273c                tim3_isr
+                0x000000000800273c                usart2_isr
+                0x000000000800273c                usb_lp_can_rx0_isr
+                0x000000000800273c                i2c2_er_isr
+                0x000000000800273c                i2c2_ev_isr
+                0x000000000800273c                uart5_isr
+                0x000000000800273c                fsmc_isr
+                0x000000000800273c                dma1_channel1_isr
+                0x000000000800273c                exti4_isr
+                0x000000000800273c                mem_manage_handler
+                0x000000000800273c                can2_tx_isr
+                0x000000000800273c                exti9_5_isr
+                0x000000000800273c                dma2_channel3_isr
+                0x000000000800273c                dma1_channel7_isr
+                0x000000000800273c                tim1_up_isr
+                0x000000000800273c                can2_sce_isr
+                0x000000000800273c                tim4_isr
+                0x000000000800273c                dma1_channel2_isr
+                0x000000000800273c                i2c1_er_isr
+                0x000000000800273c                can_sce_isr
+                0x000000000800273c                tim8_cc_isr
+                0x000000000800273c                tamper_isr
+                0x000000000800273c                eth_wkup_isr
+                0x000000000800273c                bus_fault_handler
+                0x000000000800273c                wwdg_isr
+                0x000000000800273c                dma1_channel3_isr
+                0x000000000800273c                spi3_isr
+                0x000000000800273c                tim2_isr
+                0x000000000800273c                exti0_isr
+ .text.null_handler
+                0x000000000800273e        0x2 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+                0x000000000800273e                null_handler
+                0x000000000800273e                debug_monitor_handler
+                0x000000000800273e                nmi_handler
+ .text.reset_handler
+                0x0000000008002740       0x8c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+                0x0000000008002740                reset_handler
+ .text.nvic_enable_irq
+                0x00000000080027cc       0x1a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+                0x00000000080027cc                nvic_enable_irq
+                0x00000000080027e8                . = ALIGN (0x4)
+ *fill*         0x00000000080027e6        0x2 
+ *(.rodata*)
+ .rodata.main.str1.1
+                0x00000000080027e8       0x26 main.o
+ .rodata.usart1_task.str1.1
+                0x000000000800280e        0x5 usart1.o
+ .rodata.usart3_task.str1.1
+                0x0000000008002813       0x71 usart3.o
+ .rodata.crc16_tab
+                0x0000000008002884      0x200 vesc/crc.o
+                0x0000000008002884                crc16_tab
+ .rodata.vTaskStartScheduler.str1.1
+                0x0000000008002a84        0x5 rtos/tasks.o
+ *fill*         0x0000000008002a89        0x3 
+ .rodata._ctype_
+                0x0000000008002a8c      0x101 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-ctype_.o)
+                0x0000000008002a8c                _ctype_
+                0x0000000008002b90                . = ALIGN (0x4)
+ *fill*         0x0000000008002b8d        0x3 
+
+.glue_7         0x0000000008002b90        0x0
+ .glue_7        0x0000000008002b90        0x0 linker stubs
+
+.glue_7t        0x0000000008002b90        0x0
+ .glue_7t       0x0000000008002b90        0x0 linker stubs
+
+.vfp11_veneer   0x0000000008002b90        0x0
+ .vfp11_veneer  0x0000000008002b90        0x0 linker stubs
+
+.v4_bx          0x0000000008002b90        0x0
+ .v4_bx         0x0000000008002b90        0x0 linker stubs
+
+.iplt           0x0000000008002b90        0x0
+ .iplt          0x0000000008002b90        0x0 main.o
+
+.rel.dyn        0x0000000008002b90        0x0
+ .rel.iplt      0x0000000008002b90        0x0 main.o
+
+.preinit_array  0x0000000008002b90        0x0
+                0x0000000008002b90                . = ALIGN (0x4)
+                0x0000000008002b90                __preinit_array_start = .
+ *(.preinit_array)
+                0x0000000008002b90                __preinit_array_end = .
+
+.init_array     0x0000000008002b90        0x0
+                0x0000000008002b90                . = ALIGN (0x4)
+                0x0000000008002b90                __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x0000000008002b90                __init_array_end = .
+
+.fini_array     0x0000000008002b90        0x0
+                0x0000000008002b90                . = ALIGN (0x4)
+                0x0000000008002b90                __fini_array_start = .
+ *(.fini_array)
+ *(SORT_BY_NAME(.fini_array.*))
+                0x0000000008002b90                __fini_array_end = .
+
+.ARM.extab
+ *(.ARM.extab*)
+
+.ARM.exidx      0x0000000008002b90        0x0
+                0x0000000008002b90                __exidx_start = .
+ *(.ARM.exidx*)
+                0x0000000008002b90                __exidx_end = .
+                0x0000000008002b90                . = ALIGN (0x4)
+                0x0000000008002b90                _etext = .
+
+.data           0x0000000020000000      0x43c load address 0x0000000008002b90
+                0x0000000020000000                _data = .
+ *(.data*)
+ .data.uxCriticalNesting
+                0x0000000020000000        0x4 rtos/port.o
+ .data._impure_ptr
+                0x0000000020000004        0x4 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-impure.o)
+                0x0000000020000004                _impure_ptr
+ .data.impure_data
+                0x0000000020000008      0x428 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-impure.o)
+ .data.rcc_ahb_frequency
+                0x0000000020000430        0x4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000020000430                rcc_ahb_frequency
+ .data.rcc_apb1_frequency
+                0x0000000020000434        0x4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000020000434                rcc_apb1_frequency
+ .data.rcc_apb2_frequency
+                0x0000000020000438        0x4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000020000438                rcc_apb2_frequency
+                0x000000002000043c                . = ALIGN (0x4)
+                0x000000002000043c                _edata = .
+                0x0000000008002b90                _data_loadaddr = LOADADDR (.data)
+
+.igot.plt       0x000000002000043c        0x0 load address 0x0000000008002fcc
+ .igot.plt      0x000000002000043c        0x0 main.o
+
+.bss            0x000000002000043c      0xdc4 load address 0x0000000008002fcc
+ *(.bss*)
+ .bss.h_task_usart1
+                0x000000002000043c        0x4 main.o
+                0x000000002000043c                h_task_usart1
+ .bss.xSemaphore_usart1
+                0x0000000020000440        0x4 main.o
+                0x0000000020000440                xSemaphore_usart1
+ .bss.xSemaphore_usart3
+                0x0000000020000444        0x4 main.o
+                0x0000000020000444                xSemaphore_usart3
+ .bss.lenPayload_usart1
+                0x0000000020000448        0x4 usart1.o
+                0x0000000020000448                lenPayload_usart1
+ .bss.payload_usart1
+                0x000000002000044c        0xa usart1.o
+                0x000000002000044c                payload_usart1
+ *fill*         0x0000000020000456        0x2 
+ .bss.lenPayload_usart3
+                0x0000000020000458        0x4 usart3.o
+                0x0000000020000458                lenPayload_usart3
+ .bss.payload_usart3
+                0x000000002000045c       0x64 usart3.o
+                0x000000002000045c                payload_usart3
+ .bss.data      0x00000000200004c0       0x24 vesc/vesc.o
+                0x00000000200004c0                data
+ .bss.pxEnd     0x00000000200004e4        0x4 rtos/heap_4.o
+ .bss.ucHeap    0x00000000200004e8      0xc00 rtos/heap_4.o
+ .bss.xBlockAllocatedBit
+                0x00000000200010e8        0x4 rtos/heap_4.o
+ .bss.xFreeBytesRemaining
+                0x00000000200010ec        0x4 rtos/heap_4.o
+ .bss.xMinimumEverFreeBytesRemaining
+                0x00000000200010f0        0x4 rtos/heap_4.o
+ .bss.xStart    0x00000000200010f4        0x8 rtos/heap_4.o
+ .bss.pxCurrentTCB
+                0x00000000200010fc        0x4 rtos/tasks.o
+                0x00000000200010fc                pxCurrentTCB
+ .bss.pxDelayedTaskList
+                0x0000000020001100        0x4 rtos/tasks.o
+ .bss.pxOverflowDelayedTaskList
+                0x0000000020001104        0x4 rtos/tasks.o
+ .bss.pxReadyTasksLists
+                0x0000000020001108       0x64 rtos/tasks.o
+ .bss.uxCurrentNumberOfTasks
+                0x000000002000116c        0x4 rtos/tasks.o
+ .bss.uxDeletedTasksWaitingCleanUp
+                0x0000000020001170        0x4 rtos/tasks.o
+ .bss.uxPendedTicks
+                0x0000000020001174        0x4 rtos/tasks.o
+ .bss.uxSchedulerSuspended
+                0x0000000020001178        0x4 rtos/tasks.o
+ .bss.uxTaskNumber
+                0x000000002000117c        0x4 rtos/tasks.o
+ .bss.uxTopReadyPriority
+                0x0000000020001180        0x4 rtos/tasks.o
+ .bss.xDelayedTaskList1
+                0x0000000020001184       0x14 rtos/tasks.o
+ .bss.xDelayedTaskList2
+                0x0000000020001198       0x14 rtos/tasks.o
+ .bss.xIdleTaskHandle
+                0x00000000200011ac        0x4 rtos/tasks.o
+ .bss.xNextTaskUnblockTime
+                0x00000000200011b0        0x4 rtos/tasks.o
+ .bss.xNumOfOverflows
+                0x00000000200011b4        0x4 rtos/tasks.o
+ .bss.xPendingReadyList
+                0x00000000200011b8       0x14 rtos/tasks.o
+ .bss.xSchedulerRunning
+                0x00000000200011cc        0x4 rtos/tasks.o
+ .bss.xSuspendedTaskList
+                0x00000000200011d0       0x14 rtos/tasks.o
+ .bss.xTasksWaitingTermination
+                0x00000000200011e4       0x14 rtos/tasks.o
+ .bss.xTickCount
+                0x00000000200011f8        0x4 rtos/tasks.o
+ .bss.xYieldPending
+                0x00000000200011fc        0x4 rtos/tasks.o
+ *(COMMON)
+                0x0000000020001200                . = ALIGN (0x4)
+                0x0000000020001200                _ebss = .
+
+/DISCARD/
+ *(.eh_frame)
+                0x0000000020001200                . = ALIGN (0x4)
+                0x0000000020001200                end = .
+                0x0000000020005000                PROVIDE (_stack = (ORIGIN (ram) + LENGTH (ram)))
+OUTPUT(main.elf elf32-littlearm)
+
+.debug_info     0x0000000000000000    0x10320
+ .debug_info    0x0000000000000000      0xe56 main.o
+ .debug_info    0x0000000000000e56     0x11ca usart1.o
+ .debug_info    0x0000000000002020     0x10ea usart3.o
+ .debug_info    0x000000000000310a      0x52f spi2.o
+ .debug_info    0x0000000000003639     0x113f miniprintf.o
+ .debug_info    0x0000000000004778       0xcf vesc/crc.o
+ .debug_info    0x0000000000004847      0x5b9 vesc/buffer.o
+ .debug_info    0x0000000000004e00     0x13b1 vesc/vesc.o
+ .debug_info    0x00000000000061b1      0xca4 rtos/heap_4.o
+ .debug_info    0x0000000000006e55      0xb72 rtos/list.o
+ .debug_info    0x00000000000079c7      0x34f rtos/port.o
+ .debug_info    0x0000000000007d16     0x21fd rtos/queue.o
+ .debug_info    0x0000000000009f13     0x2b89 rtos/tasks.o
+ .debug_info    0x000000000000ca9c      0x136 rtos/opencm3.o
+ .debug_info    0x000000000000cbd2      0x20a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_info    0x000000000000cddc     0x128f /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_info    0x000000000000e06b      0x266 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_info    0x000000000000e2d1      0xa1c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_info    0x000000000000eced      0x185 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_info    0x000000000000ee72      0x519 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_info    0x000000000000f38b      0x1c5 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_info    0x000000000000f550      0x603 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_info    0x000000000000fb53      0x29f /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_info    0x000000000000fdf2      0x2dd /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_info    0x00000000000100cf      0x251 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+
+.debug_abbrev   0x0000000000000000     0x3241
+ .debug_abbrev  0x0000000000000000      0x2b1 main.o
+ .debug_abbrev  0x00000000000002b1      0x341 usart1.o
+ .debug_abbrev  0x00000000000005f2      0x330 usart3.o
+ .debug_abbrev  0x0000000000000922      0x13f spi2.o
+ .debug_abbrev  0x0000000000000a61      0x3d4 miniprintf.o
+ .debug_abbrev  0x0000000000000e35       0xab vesc/crc.o
+ .debug_abbrev  0x0000000000000ee0      0x135 vesc/buffer.o
+ .debug_abbrev  0x0000000000001015      0x323 vesc/vesc.o
+ .debug_abbrev  0x0000000000001338      0x361 rtos/heap_4.o
+ .debug_abbrev  0x0000000000001699      0x236 rtos/list.o
+ .debug_abbrev  0x00000000000018cf      0x217 rtos/port.o
+ .debug_abbrev  0x0000000000001ae6      0x426 rtos/queue.o
+ .debug_abbrev  0x0000000000001f0c      0x4f1 rtos/tasks.o
+ .debug_abbrev  0x00000000000023fd       0x89 rtos/opencm3.o
+ .debug_abbrev  0x0000000000002486       0xd0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_abbrev  0x0000000000002556      0x2e1 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_abbrev  0x0000000000002837      0x116 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_abbrev  0x000000000000294d      0x1eb /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_abbrev  0x0000000000002b38       0xe5 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_abbrev  0x0000000000002c1d      0x129 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_abbrev  0x0000000000002d46       0xc8 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_abbrev  0x0000000000002e0e      0x15d /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_abbrev  0x0000000000002f6b       0xdc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_abbrev  0x0000000000003047      0x145 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_abbrev  0x000000000000318c       0xb5 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+
+.debug_loc      0x0000000000000000     0x5646
+ .debug_loc     0x0000000000000000       0x7a main.o
+ .debug_loc     0x000000000000007a      0x188 usart1.o
+ .debug_loc     0x0000000000000202       0x9d usart3.o
+ .debug_loc     0x000000000000029f       0x9e spi2.o
+ .debug_loc     0x000000000000033d      0x9a2 miniprintf.o
+ .debug_loc     0x0000000000000cdf       0x86 vesc/crc.o
+ .debug_loc     0x0000000000000d65      0x3f4 vesc/buffer.o
+ .debug_loc     0x0000000000001159      0x508 vesc/vesc.o
+ .debug_loc     0x0000000000001661      0x361 rtos/heap_4.o
+ .debug_loc     0x00000000000019c2       0xaf rtos/list.o
+ .debug_loc     0x0000000000001a71       0xbe rtos/port.o
+ .debug_loc     0x0000000000001b2f     0x12ec rtos/queue.o
+ .debug_loc     0x0000000000002e1b     0x1a09 rtos/tasks.o
+ .debug_loc     0x0000000000004824      0x134 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_loc     0x0000000000004958      0x39c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_loc     0x0000000000004cf4       0xbe /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_loc     0x0000000000004db2      0x1dc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_loc     0x0000000000004f8e       0xff /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_loc     0x000000000000508d      0x172 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_loc     0x00000000000051ff       0x99 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_loc     0x0000000000005298       0x6f /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_loc     0x0000000000005307       0xca /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_loc     0x00000000000053d1      0x128 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_loc     0x00000000000054f9      0x14d /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+
+.debug_aranges  0x0000000000000000      0xb78
+ .debug_aranges
+                0x0000000000000000       0x28 main.o
+ .debug_aranges
+                0x0000000000000028       0x48 usart1.o
+ .debug_aranges
+                0x0000000000000070       0x40 usart3.o
+ .debug_aranges
+                0x00000000000000b0       0x30 spi2.o
+ .debug_aranges
+                0x00000000000000e0       0x58 miniprintf.o
+ .debug_aranges
+                0x0000000000000138       0x20 vesc/crc.o
+ .debug_aranges
+                0x0000000000000158       0x88 vesc/buffer.o
+ .debug_aranges
+                0x00000000000001e0       0x58 vesc/vesc.o
+ .debug_aranges
+                0x0000000000000238       0x48 rtos/heap_4.o
+ .debug_aranges
+                0x0000000000000280       0x40 rtos/list.o
+ .debug_aranges
+                0x00000000000002c0       0x70 rtos/port.o
+ .debug_aranges
+                0x0000000000000330       0xc0 rtos/queue.o
+ .debug_aranges
+                0x00000000000003f0      0x168 rtos/tasks.o
+ .debug_aranges
+                0x0000000000000558       0x30 rtos/opencm3.o
+ .debug_aranges
+                0x0000000000000588       0x38 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_aranges
+                0x00000000000005c0      0x158 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_aranges
+                0x0000000000000718       0x50 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_aranges
+                0x0000000000000768      0x178 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_aranges
+                0x00000000000008e0       0x30 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_aranges
+                0x0000000000000910       0xb8 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_aranges
+                0x00000000000009c8       0x40 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_aranges
+                0x0000000000000a08       0x58 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_aranges
+                0x0000000000000a60       0x88 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_aranges
+                0x0000000000000ae8       0x30 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_aranges
+                0x0000000000000b18       0x60 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+
+.debug_ranges   0x0000000000000000      0xe30
+ .debug_ranges  0x0000000000000000       0x18 main.o
+ .debug_ranges  0x0000000000000018       0x38 usart1.o
+ .debug_ranges  0x0000000000000050       0x30 usart3.o
+ .debug_ranges  0x0000000000000080       0x20 spi2.o
+ .debug_ranges  0x00000000000000a0       0x90 miniprintf.o
+ .debug_ranges  0x0000000000000130       0x10 vesc/crc.o
+ .debug_ranges  0x0000000000000140       0x78 vesc/buffer.o
+ .debug_ranges  0x00000000000001b8       0x78 vesc/vesc.o
+ .debug_ranges  0x0000000000000230       0x38 rtos/heap_4.o
+ .debug_ranges  0x0000000000000268       0x30 rtos/list.o
+ .debug_ranges  0x0000000000000298       0x78 rtos/port.o
+ .debug_ranges  0x0000000000000310      0x250 rtos/queue.o
+ .debug_ranges  0x0000000000000560      0x300 rtos/tasks.o
+ .debug_ranges  0x0000000000000860       0x20 rtos/opencm3.o
+ .debug_ranges  0x0000000000000880       0x28 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_ranges  0x00000000000008a8      0x1b8 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_ranges  0x0000000000000a60       0x40 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_ranges  0x0000000000000aa0      0x168 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_ranges  0x0000000000000c08       0x20 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_ranges  0x0000000000000c28       0xa8 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_ranges  0x0000000000000cd0       0x30 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_ranges  0x0000000000000d00       0x48 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_ranges  0x0000000000000d48       0x78 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_ranges  0x0000000000000dc0       0x20 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_ranges  0x0000000000000de0       0x50 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+
+.debug_line     0x0000000000000000     0x910f
+ .debug_line    0x0000000000000000      0x326 main.o
+ .debug_line    0x0000000000000326      0x539 usart1.o
+ .debug_line    0x000000000000085f      0x459 usart3.o
+ .debug_line    0x0000000000000cb8      0x271 spi2.o
+ .debug_line    0x0000000000000f29      0x54d miniprintf.o
+ .debug_line    0x0000000000001476       0x94 vesc/crc.o
+ .debug_line    0x000000000000150a      0x3dc vesc/buffer.o
+ .debug_line    0x00000000000018e6      0x686 vesc/vesc.o
+ .debug_line    0x0000000000001f6c      0x4ac rtos/heap_4.o
+ .debug_line    0x0000000000002418      0x320 rtos/list.o
+ .debug_line    0x0000000000002738      0x371 rtos/port.o
+ .debug_line    0x0000000000002aa9      0xedd rtos/queue.o
+ .debug_line    0x0000000000003986     0x19da rtos/tasks.o
+ .debug_line    0x0000000000005360      0x16d rtos/opencm3.o
+ .debug_line    0x00000000000054cd      0x3c6 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_line    0x0000000000005893      0xce7 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_line    0x000000000000657a      0x3dc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_line    0x0000000000006956      0x921 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_line    0x0000000000007277      0x399 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_line    0x0000000000007610      0x5e2 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_line    0x0000000000007bf2      0x3d1 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_line    0x0000000000007fc3      0x405 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_line    0x00000000000083c8      0x4f7 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_line    0x00000000000088bf      0x45e /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_line    0x0000000000008d1d      0x3f2 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+
+.debug_str      0x0000000000000000    0x12fe2
+ .debug_str     0x0000000000000000      0x895 main.o
+                                        0x983 (size before relaxing)
+ .debug_str     0x0000000000000895      0x26a usart1.o
+                                        0xb5a (size before relaxing)
+ .debug_str     0x0000000000000aff       0xfb usart3.o
+                                        0xaee (size before relaxing)
+ .debug_str     0x0000000000000bfa       0x9e spi2.o
+                                        0x517 (size before relaxing)
+ .debug_str     0x0000000000000c98       0xef miniprintf.o
+                                        0x6b4 (size before relaxing)
+ .debug_str     0x0000000000000d87       0x21 vesc/crc.o
+                                        0x152 (size before relaxing)
+ .debug_str     0x0000000000000da8      0x138 vesc/buffer.o
+                                        0x32c (size before relaxing)
+ .debug_str     0x0000000000000ee0      0x3a5 vesc/vesc.o
+                                        0xbde (size before relaxing)
+ .debug_str     0x0000000000001285      0x1eb rtos/heap_4.o
+                                        0x76c (size before relaxing)
+ .debug_str     0x0000000000001470      0x12a rtos/list.o
+                                        0x6c7 (size before relaxing)
+ .debug_str     0x000000000000159a      0x19e rtos/port.o
+                                        0x360 (size before relaxing)
+ .debug_str     0x0000000000001738      0x565 rtos/queue.o
+                                        0xd19 (size before relaxing)
+ .debug_str     0x0000000000001c9d      0x85d rtos/tasks.o
+                                       0x125d (size before relaxing)
+ .debug_str     0x00000000000024fa       0x40 rtos/opencm3.o
+                                        0x24f (size before relaxing)
+ .debug_str     0x000000000000253a     0x8365 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+                                       0x8514 (size before relaxing)
+ .debug_str     0x000000000000a89f     0x304f /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                                       0x7db2 (size before relaxing)
+ .debug_str     0x000000000000d8ee       0x5a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+                                       0x8508 (size before relaxing)
+ .debug_str     0x000000000000d948     0x13a0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+                                       0x8555 (size before relaxing)
+ .debug_str     0x000000000000ece8       0x54 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+                                       0x7f6a (size before relaxing)
+ .debug_str     0x000000000000ed3c     0x10c4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                                       0x82f4 (size before relaxing)
+ .debug_str     0x000000000000fe00       0x2d /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+                                       0x812e (size before relaxing)
+ .debug_str     0x000000000000fe2d      0x168 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+                                       0x7735 (size before relaxing)
+ .debug_str     0x000000000000ff95      0x181 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+                                       0x55bb (size before relaxing)
+ .debug_str     0x0000000000010116     0x24ec /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+                                       0x665c (size before relaxing)
+ .debug_str     0x0000000000012602      0x9e0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+                                       0x5371 (size before relaxing)
+
+.comment        0x0000000000000000       0x79
+ .comment       0x0000000000000000       0x79 main.o
+                                         0x7a (size before relaxing)
+ .comment       0x0000000000000079       0x7a usart1.o
+ .comment       0x0000000000000079       0x7a usart3.o
+ .comment       0x0000000000000079       0x7a spi2.o
+ .comment       0x0000000000000079       0x7a miniprintf.o
+ .comment       0x0000000000000079       0x7a vesc/crc.o
+ .comment       0x0000000000000079       0x7a vesc/buffer.o
+ .comment       0x0000000000000079       0x7a vesc/vesc.o
+ .comment       0x0000000000000079       0x7a rtos/heap_4.o
+ .comment       0x0000000000000079       0x7a rtos/list.o
+ .comment       0x0000000000000079       0x7a rtos/port.o
+ .comment       0x0000000000000079       0x7a rtos/queue.o
+ .comment       0x0000000000000079       0x7a rtos/tasks.o
+ .comment       0x0000000000000079       0x7a rtos/opencm3.o
+ .comment       0x0000000000000079       0x7a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .comment       0x0000000000000079       0x7a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .comment       0x0000000000000079       0x7a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .comment       0x0000000000000079       0x7a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .comment       0x0000000000000079       0x7a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .comment       0x0000000000000079       0x7a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .comment       0x0000000000000079       0x7a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .comment       0x0000000000000079       0x7a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .comment       0x0000000000000079       0x7a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .comment       0x0000000000000079       0x7a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .comment       0x0000000000000079       0x7a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+
+.ARM.attributes
+                0x0000000000000000       0x2b
+ .ARM.attributes
+                0x0000000000000000       0x2d main.o
+ .ARM.attributes
+                0x000000000000002d       0x2d usart1.o
+ .ARM.attributes
+                0x000000000000005a       0x2d usart3.o
+ .ARM.attributes
+                0x0000000000000087       0x2d spi2.o
+ .ARM.attributes
+                0x00000000000000b4       0x2d miniprintf.o
+ .ARM.attributes
+                0x00000000000000e1       0x2d vesc/crc.o
+ .ARM.attributes
+                0x000000000000010e       0x2d vesc/buffer.o
+ .ARM.attributes
+                0x000000000000013b       0x2d vesc/vesc.o
+ .ARM.attributes
+                0x0000000000000168       0x2d rtos/heap_4.o
+ .ARM.attributes
+                0x0000000000000195       0x2d rtos/list.o
+ .ARM.attributes
+                0x00000000000001c2       0x2d rtos/port.o
+ .ARM.attributes
+                0x00000000000001ef       0x2d rtos/queue.o
+ .ARM.attributes
+                0x000000000000021c       0x2d rtos/tasks.o
+ .ARM.attributes
+                0x0000000000000249       0x2d rtos/opencm3.o
+ .ARM.attributes
+                0x0000000000000276       0x2d /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-atoi.o)
+ .ARM.attributes
+                0x00000000000002a3       0x1b /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000000000002be       0x2d /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+ .ARM.attributes
+                0x00000000000002eb       0x2d /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o)
+ .ARM.attributes
+                0x0000000000000318       0x2d /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x0000000000000345       0x2d /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000372       0x1d /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x000000000000038f       0x1d /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x00000000000003ac       0x2d /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .ARM.attributes
+                0x00000000000003d9       0x2d /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .ARM.attributes
+                0x0000000000000406       0x2d /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .ARM.attributes
+                0x0000000000000433       0x2d /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .ARM.attributes
+                0x0000000000000460       0x2d /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .ARM.attributes
+                0x000000000000048d       0x2d /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .ARM.attributes
+                0x00000000000004ba       0x2d /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .ARM.attributes
+                0x00000000000004e7       0x2d /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .ARM.attributes
+                0x0000000000000514       0x2d /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .ARM.attributes
+                0x0000000000000541       0x2d /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .ARM.attributes
+                0x000000000000056e       0x2d /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+
+.debug_frame    0x0000000000000000     0x1c00
+ .debug_frame   0x0000000000000000       0x40 main.o
+ .debug_frame   0x0000000000000040       0xe4 usart1.o
+ .debug_frame   0x0000000000000124       0xac usart3.o
+ .debug_frame   0x00000000000001d0       0x64 spi2.o
+ .debug_frame   0x0000000000000234      0x110 miniprintf.o
+ .debug_frame   0x0000000000000344       0x28 vesc/crc.o
+ .debug_frame   0x000000000000036c      0x168 vesc/buffer.o
+ .debug_frame   0x00000000000004d4      0x110 vesc/vesc.o
+ .debug_frame   0x00000000000005e4       0x98 rtos/heap_4.o
+ .debug_frame   0x000000000000067c       0x6c rtos/list.o
+ .debug_frame   0x00000000000006e8       0xd8 rtos/port.o
+ .debug_frame   0x00000000000007c0      0x278 rtos/queue.o
+ .debug_frame   0x0000000000000a38      0x4b8 rtos/tasks.o
+ .debug_frame   0x0000000000000ef0       0x40 rtos/opencm3.o
+ .debug_frame   0x0000000000000f30       0x30 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-atoi.o)
+ .debug_frame   0x0000000000000f60       0x20 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+ .debug_frame   0x0000000000000f80       0x80 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o)
+ .debug_frame   0x0000000000001000       0x4c /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x000000000000104c       0x38 /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x0000000000001084       0x60 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_frame   0x00000000000010e4      0x2e0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_frame   0x00000000000013c4       0x80 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_frame   0x0000000000001444      0x2d0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_frame   0x0000000000001714       0x4c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_frame   0x0000000000001760      0x170 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_frame   0x00000000000018d0       0x60 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_frame   0x0000000000001930       0xd0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_frame   0x0000000000001a00      0x120 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_frame   0x0000000000001b20       0x40 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_frame   0x0000000000001b60       0xa0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+
+.debug_macro    0x0000000000000000     0x408a
+ .debug_macro   0x0000000000000000       0xb9 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000000000b9      0xa90 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000b49       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000b6b       0x56 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000bc1       0x51 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000c12       0xef /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000d01       0x6a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000d6b      0x1df /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000f4a       0x22 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000f6c       0xfa /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000001066       0x58 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000000010be      0x1b4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000001272       0x76 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000000012e8      0xdfd /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000000020e5       0xe0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000000021c5       0x16 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000000021db      0x82c /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000002a07       0xdc /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000002ae3       0x82 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000002b65       0xb9 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000002c1e       0xdb /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_macro   0x0000000000002cf9      0x2eb /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_macro   0x0000000000002fe4       0x16 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_all.o)
+ .debug_macro   0x0000000000002ffa       0xdb /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(spi_common_l1f124.o)
+ .debug_macro   0x00000000000030d5       0xdb /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x00000000000031b0       0x94 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000003244      0x29e /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x00000000000034e2       0xdb /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x00000000000035bd       0xcf /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x000000000000368c       0xb9 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000003745       0xd0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000003815      0x3a1 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000003bb6       0x6a /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000003c20      0x1a2 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000003dc2       0xb4 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000003e76       0x64 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000003eda      0x1b0 /home/pierre/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)

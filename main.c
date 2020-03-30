@@ -8,6 +8,7 @@
 #include "task.h"
 #include "usart1.h"
 #include "usart3.h"
+#include "spi2.h"
 #include "semphr.h"
 #include <libopencm3/stm32/rcc.h>
 #include <libopencm3/stm32/gpio.h>
@@ -58,6 +59,7 @@ main(void) {
 	gpio_setup();
 	usart1_setup();
 	usart3_setup();
+	init_spi2();
 
 	xSemaphore_usart1 = xSemaphoreCreateMutex();
 	xSemaphore_usart3 = xSemaphoreCreateMutex();
@@ -65,9 +67,11 @@ main(void) {
 	xSemaphoreGive( xSemaphore_usart1 );
 
 
-	xTaskCreate(task1,"LED",50,NULL,configMAX_PRIORITIES-3,NULL);
+	xTaskCreate(task1,"LED",50,NULL,configMAX_PRIORITIES-4,NULL);
 	xTaskCreate(usart1_task,"PC_COMMANDS",150,NULL,configMAX_PRIORITIES-1,&h_task_usart1);
-	xTaskCreate(usart3_task,"VESC_MEASURE",150,NULL,configMAX_PRIORITIES-2,NULL);
+	xTaskCreate(usart3_task,"VESC_MEASURE",150,NULL,configMAX_PRIORITIES-3,NULL);
+	xTaskCreate(spi2_task,"SPI_TEST",100,NULL,configMAX_PRIORITIES-2,NULL);
+
 	vTaskStartScheduler();
 	for (;;)
 		;
