@@ -9,6 +9,8 @@
 #include "usart1.h"
 #include "usart3.h"
 #include "spi2.h"
+#include "nrf24.h"
+
 #include "semphr.h"
 #include <libopencm3/stm32/rcc.h>
 #include <libopencm3/stm32/gpio.h>
@@ -25,6 +27,16 @@ gpio_setup(void) {
 
 	rcc_periph_clock_enable(RCC_GPIOC);
 	gpio_set_mode(GPIOC,GPIO_MODE_OUTPUT_2_MHZ,GPIO_CNF_OUTPUT_PUSHPULL,GPIO13);
+
+
+	//set GPIO for NRF24 radio
+	//CE
+	rcc_periph_clock_enable(RCC_GPIOB);
+	gpio_set_mode(GPIOB,GPIO_MODE_OUTPUT_2_MHZ,GPIO_CNF_OUTPUT_PUSHPULL,GPIO1); // CE on PB1
+
+	//CS is configured via SPI (spi2.c)
+
+
 }
 
 
@@ -61,16 +73,31 @@ main(void) {
 	usart3_setup();
 	init_spi2();
 
+
 	xSemaphore_usart1 = xSemaphoreCreateMutex();
 	xSemaphore_usart3 = xSemaphoreCreateMutex();
 	xSemaphoreGive( xSemaphore_usart3 );
 	xSemaphoreGive( xSemaphore_usart1 );
 
 
+	uint8_t tx_address1[5] = {0xE7,0xE7,0xE7,0xE7,0xE7};
+	uint8_t rx_address1[5] = {0xD7,0xD5,0xD7,0xD7,0xD7};
+
+
+	 nrf24_config(20,PAYLOAD_LEN);
+	 nrf24_tx_address(tx_address1);
+	 nrf24_rx_address(rx_address1);
+	 nrf24_displayConfiguration();
+	 //nrf24_powerDown();
+
+
+
+
+
 	xTaskCreate(task1,"LED",50,NULL,configMAX_PRIORITIES-4,NULL);
 	xTaskCreate(usart1_task,"PC_COMMANDS",150,NULL,configMAX_PRIORITIES-1,&h_task_usart1);
 	xTaskCreate(usart3_task,"VESC_MEASURE",150,NULL,configMAX_PRIORITIES-3,NULL);
-	xTaskCreate(spi2_task,"SPI_TEST",100,NULL,configMAX_PRIORITIES-2,NULL);
+	//xTaskCreate(spi2_task,"SPI_TEST",100,NULL,configMAX_PRIORITIES-2,NULL);
 
 	vTaskStartScheduler();
 	for (;;)
