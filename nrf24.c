@@ -1,7 +1,9 @@
 
 #include "nrf24.h"
-
+#include "vesc/vesc.h"
 /*****************************************************SPI LINK SECTION : LINK THIS TO YOUR SPI + CE pin INTERFACE**********/
+
+extern nunchuckPackage nunchuck;
 
 uint8_t spi_transfer(uint8_t tx)
 {
@@ -184,7 +186,7 @@ uint8_t nrf24_payloadLength(void)
 }
 
 
-void nrf24_getData(uint8_t* dta)
+void nrf24_getData(uint8_t* dta,uint8_t len)
 {
     /* Pull down chip select */
     set_csn(0);
@@ -193,7 +195,7 @@ void nrf24_getData(uint8_t* dta)
     spi_transfer( R_RX_PAYLOAD );
     
     /* Read payload */
-    nrf24_transferSync(dta,dta,PAYLOAD_LEN);
+    nrf24_transferSync(dta,dta,len);
     
     /* Pull up chip select */
     set_csn(1);
@@ -213,7 +215,7 @@ uint8_t nrf24_retransmissionCount(void)
 
 // Sends a data package to the default address. Be sure to send the correct
 // amount of bytes as configured as payload on the receiver.
-void nrf24_send(uint8_t* value)
+void nrf24_send(uint8_t* value, uint8_t len)
 {    
     /* Go to Standby-I first */
     set_ce(0);
@@ -240,7 +242,7 @@ void nrf24_send(uint8_t* value)
     spi_transfer(W_TX_PAYLOAD);
 
     /* Write payload */
-    nrf24_transmitSync(value,PAYLOAD_LEN);   
+    nrf24_transmitSync(value,len);
 
     /* Pull up chip select */
     set_csn(1);
@@ -322,7 +324,19 @@ void nrf24_enableDynamicPayload(void)
 
 uint8_t getAvailablePaySize(void)
 {
-	return  spi_transfer(R_RX_PL_WID);
+	 uint8_t result;
+	 set_csn(0);
+	 spi_transfer(R_RX_PL_WID);
+	 result = spi_transfer(0xFF);
+	 set_csn(1);
+	 if(result > 32)
+	 {
+		 set_csn(0);
+		 spi_transfer(FLUSH_RX);
+		 set_csn(1);
+		 return 0;
+	 }
+	 return result;
 }
 
 
@@ -638,6 +652,59 @@ void printTable(uint8_t  *tab,uint8_t size)
 		usart1_printf("0x%02x ",tab[i]);
 	    }
 
+}
+
+
+void nrf24_TX(void *args) {
+	(void)args;
+
+	for(;;)
+	{
+		usart1_printf("sending a %d bytes payload \n",sizeof(nunchuck));
+		nrf24_send(&nunchuck,sizeof(nunchuck));
+
+		        uint8_t temp ;
+		        while(nrf24_isSending())
+		        {
+
+
+		        }
+		        temp = nrf24_lastMessageStatus();
+
+		        if(temp == NRF24_TRANSMISSON_OK)
+		        {
+		        	usart1_printf("> Tranmission went OK\r\n");
+		        }
+		        else if(temp == NRF24_MESSAGE_LOST)
+		        {
+		        	usart1_printf("> Message is lost ...\r\n");
+		        }
+
+		        temp = nrf24_retransmissionCount();
+		        usart1_printf("> Retranmission count: %d \n",temp);
+
+				vTaskDelay(pdMS_TO_TICKS(5000));
+
+
+	}
+}
+
+
+void nrf24_RX(void *args) {
+	(void)args;
+
+	for(;;)
+	{
+		if(nrf24_dataReady())
+		{
+			uint8_t temp = getAvailablePaySize();
+			usart1_printf("%d bytes available \n ",temp);
+
+			nrf24_getData(&nunchuck,temp);
+
+		}
+		vTaskDelay(pdMS_TO_TICKS(3000));
+	}
 }
 
 

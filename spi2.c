@@ -44,16 +44,7 @@ uint8_t spi2_write(uint32_t  spi,uint16_t  	data )
 	return reiceived_data;
 }
 
-void spi2_task(void *args) {
-	(void)args;
 
-	for(;;)
-	{
-		spi2_write(SPI2,0xAA);
-		vTaskDelay(pdMS_TO_TICKS(1000));
-
-	}
-}
 
 
 

@@ -83,10 +83,19 @@ main(void) {
 	uint8_t tx_address1[5] = {0xE7,0xE7,0xE7,0xE7,0xE7};
 	uint8_t rx_address1[5] = {0xD7,0xD5,0xD7,0xD7,0xD7};
 
+	//uint8_t tx_address1[5] =  {0xD7,0xD5,0xD7,0xD7,0xD7};
+	//uint8_t rx_address1[5] =  {0xE7,0xE7,0xE7,0xE7,0xE7};
 
-	 nrf24_config(20,PAYLOAD_LEN);
 	 nrf24_tx_address(tx_address1);
 	 nrf24_rx_address(rx_address1);
+
+
+	 //IMPORTANT if use auto ack put the TX address also in the P0_RX pipe to receive the ack
+	 nrf24_writeRegister(RX_ADDR_P0,tx_address1,nrf24_ADDR_LEN); // set AUTO-ACK PIPE0 adrres = TX ADDRES
+
+
+	 nrf24_config(20,PAYLOAD_LEN);
+
 	 nrf24_displayConfiguration();
 	 //nrf24_powerDown();
 
@@ -97,7 +106,8 @@ main(void) {
 	xTaskCreate(task1,"LED",50,NULL,configMAX_PRIORITIES-4,NULL);
 	xTaskCreate(usart1_task,"PC_COMMANDS",150,NULL,configMAX_PRIORITIES-1,&h_task_usart1);
 	xTaskCreate(usart3_task,"VESC_MEASURE",150,NULL,configMAX_PRIORITIES-3,NULL);
-	//xTaskCreate(spi2_task,"SPI_TEST",100,NULL,configMAX_PRIORITIES-2,NULL);
+	//xTaskCreate(nrf24_TX,"RF24_TX_test",100,NULL,configMAX_PRIORITIES-2,NULL);
+	xTaskCreate(nrf24_RX,"RF24_RX_test",100,NULL,configMAX_PRIORITIES-2,NULL);
 
 	vTaskStartScheduler();
 	for (;;)

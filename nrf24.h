@@ -35,9 +35,9 @@ void nrf24_tx_address(uint8_t* adr);
 uint8_t nrf24_dataReady(void) ;
 uint8_t nrf24_rxFifoEmpty(void);
 uint8_t nrf24_payloadLength(void);
-void nrf24_getData(uint8_t* dta) ;
+void nrf24_getData(uint8_t* dta,uint8_t len) ;
 uint8_t nrf24_retransmissionCount(void);
-void nrf24_send(uint8_t* value);
+void nrf24_send(uint8_t* value, uint8_t len);
 uint8_t nrf24_isSending(void);
 uint8_t nrf24_getStatus(void);
 uint8_t nrf24_lastMessageStatus(void);
@@ -45,4 +45,7 @@ void nrf24_powerUpTx(void);
 void nrf24_powerDown(void);
 void nrf24_enableDynamicPayload(void);
 uint8_t getAvailablePaySize(void);
+
+void nrf24_TX(void *args);
+void nrf24_RX(void *args);
 

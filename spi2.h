@@ -20,6 +20,6 @@
 
 void init_spi2(void);
 uint8_t spi2_write(uint32_t  spi,uint16_t  	data );
-void spi2_task(void *args);
+
 
 #endif /* SPI2_H_ */
