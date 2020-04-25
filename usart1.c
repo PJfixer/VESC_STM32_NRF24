@@ -2,14 +2,14 @@
 
 #include "usart1.h"
 
-extern TaskHandle_t h_task_usart1;
+//extern TaskHandle_t h_task_usart1;
 
 size_t lenPayload_usart1; // bye in the usart buffer
 uint8_t payload_usart1[10]; // usart buffer fed by uart isr
 
 extern SemaphoreHandle_t xSemaphore_usart1;
 
-extern nunchuckPackage nunchuck;
+//extern nunchuckPackage nunchuck;
 
 inline void
 usart1_putc(char ch) {
@@ -25,8 +25,11 @@ usart1_printf(const char *format,...) {
 				va_start(args,format);
 				if( xSemaphoreTake( xSemaphore_usart1, ( TickType_t ) 10 ) == pdTRUE )  //CHECK IF USART1 IS available
 					{
+
+
 						rc = mini_vprintf_cooked(usart1_putc,format,args);
 						xSemaphoreGive( xSemaphore_usart1 );
+
 					}
 				va_end(args);
 				return rc;
@@ -42,10 +45,10 @@ void usart1_setup(void) {
 	rcc_periph_clock_enable(RCC_USART1);
 	rcc_periph_clock_enable(RCC_AFIO);
 
-	usart_enable_rx_interrupt(USART1);
+	//usart_enable_rx_interrupt(USART1);
 
 	/* Enable the USART1 interrupt. */
-	nvic_enable_irq(NVIC_USART1_IRQ);
+	//nvic_enable_irq(NVIC_USART1_IRQ);
 
 
 
@@ -66,13 +69,13 @@ void usart1_setup(void) {
 }
 
 
-void usart1_isr(void)
+/*void usart1_isr(void)
 {
 	BaseType_t woken = pdFALSE;
 	//gpio_toggle(GPIOC,GPIO13);
 
 
-	/* Check if we were called because of RXNE. */
+	//Check if we were called because of RXNE.
 	if (((USART_CR1(USART1) & USART_CR1_RXNEIE) != 0) &&
 	    ((USART_SR(USART1) & USART_SR_RXNE) != 0)) {
 
@@ -96,7 +99,7 @@ void usart1_isr(void)
 
 	}
 
-}
+}*/
 
 void usart1_printDouble( double val, unsigned int precision){
 
@@ -115,7 +118,7 @@ void usart1_printDouble( double val, unsigned int precision){
 }
 
 
-void usart1_task(void *args) {
+/*void usart1_task(void *args) {
 	(void)args;
 	 int16_t parsed_int = 0;
 	 uint8_t temp[10];
@@ -149,5 +152,5 @@ void usart1_task(void *args) {
 			//parse data & send
 
 		}
-}
+}*/
 

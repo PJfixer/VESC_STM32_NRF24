@@ -47,4 +47,5 @@ vesc/vesc.o: vesc/vesc.c vesc/vesc.h \
  vesc/../usart3.h vesc/../usart1.h vesc/../miniprintf.h \
  /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/stdlib.h \
  /home/pierre/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/machine/stdlib.h \
- vesc/../vesc/vesc.h
+ vesc/../vesc/vesc.h \
+ /home/pierre/stm32f103c8t6/libopencm3/include/libopencm3/cm3/cortex.h

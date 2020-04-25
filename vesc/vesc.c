@@ -4,9 +4,13 @@
 #include "vesc.h"
 #include "../usart3.h"
 #include "../usart1.h"
+#include "libopencm3/cm3/cortex.h"
 
-dataPackage data; 
+dataPackage data_vesc1;
+dataPackage data_vesc2;
+Custom_dataPackage Telemetry_data;
 nunchuckPackage nunchuck; 
+int RPM_VESC = 0;
 
 extern SemaphoreHandle_t xSemaphore_usart3;
 
@@ -42,13 +46,21 @@ int packSendPayload(uint8_t * payload, int lenPay) {
 	
 
 	// Sending package
-	if( xSemaphoreTake( xSemaphore_usart3, ( TickType_t ) 10 ) == pdTRUE ) // CHECK IF USART3 IS available
+	if( xSemaphoreTake( xSemaphore_usart3,( TickType_t ) 10 ) == pdTRUE ) // CHECK IF USART3 IS available
 	{
+
+
+
 		for(int i =0 ; i <= count; i++)
 		{
 			usart_send_blocking(USART3,messageSend[i]);
 		}
 	xSemaphoreGive( xSemaphore_usart3 );
+
+
+
+
+
 	//usart1_printf("we give mutex usart3");
 	}
 	// Returns number of send bytes
@@ -56,7 +68,7 @@ int packSendPayload(uint8_t * payload, int lenPay) {
 }
 
 
-bool processReadPacket(uint8_t * message) {
+bool processReadPacket(uint8_t * message,dataPackage * data ) {
 
 	COMM_PACKET_ID packetId;
 	int32_t ind = 0;
@@ -67,17 +79,17 @@ bool processReadPacket(uint8_t * message) {
 	switch (packetId){
 		case COMM_GET_VALUES: // Structure defined here: https://github.com/vedderb/bldc/blob/43c3bbaf91f5052a35b75c2ff17b5fe99fad94d1/commands.c#L164
 			ind = 4; // Skip the first 4 bytes 
-			data.avgMotorCurrent 	= buffer_get_float32(message, 100.0, &ind);
-			data.avgInputCurrent 	= buffer_get_float32(message, 100.0, &ind);
+			data->avgMotorCurrent 	= buffer_get_float32(message, 100.0, &ind);
+			data->avgInputCurrent 	= buffer_get_float32(message, 100.0, &ind);
 			ind += 8; // Skip the next 8 bytes
-			data.dutyCycleNow 		= buffer_get_float16(message, 1000.0, &ind);
-			data.rpm 				= buffer_get_int32(message, &ind);
-			data.inpVoltage 		= buffer_get_float16(message, 10.0, &ind);
-			data.ampHours 			= buffer_get_float32(message, 10000.0, &ind);
-			data.ampHoursCharged 	= buffer_get_float32(message, 10000.0, &ind);
+			data->dutyCycleNow 		= buffer_get_float16(message, 1000.0, &ind);
+			data->rpm 				= buffer_get_int32(message, &ind);
+			data->inpVoltage 		= buffer_get_float16(message, 10.0, &ind);
+			data->ampHours 			= buffer_get_float32(message, 10000.0, &ind);
+			data->ampHoursCharged 	= buffer_get_float32(message, 10000.0, &ind);
 			ind += 8; // Skip the next 8 bytes 
-			data.tachometer 		= buffer_get_int32(message, &ind);
-			data.tachometerAbs 		= buffer_get_int32(message, &ind);
+			data->tachometer 		= buffer_get_int32(message, &ind);
+			data->tachometerAbs 		= buffer_get_int32(message, &ind);
 			return true;
 
 		break;
@@ -93,7 +105,9 @@ bool getVescValues(void) {
 	uint8_t message[100];
 	uint8_t payload[100];
 	lenPayload_usart3 =  0;
+
 	packSendPayload(command, 1);
+
 	//delay(1); //needed, otherwise data is not read
 	for (int i = 0; i < 3000000; i++)
 				__asm__("nop");
@@ -112,7 +126,7 @@ bool getVescValues(void) {
 
 
 
-			bool read = processReadPacket(payload); //returns true if sucessfull
+			bool read = processReadPacket(payload,&data_vesc1); //returns true if sucessfull
 
 			return read;
 		}
@@ -120,6 +134,7 @@ bool getVescValues(void) {
 	{
 		return false;
 	}
+
 }
 
 bool getVescValuesfwd(uint8_t canID ) {
@@ -148,7 +163,7 @@ bool getVescValuesfwd(uint8_t canID ) {
 				lenPayload_usart3 = 0;
 				unpackMessage(message,length,payload);
 
-		bool read = processReadPacket(payload); //returns true if sucessfull
+		bool read = processReadPacket(payload,&data_vesc2); //returns true if sucessfull
 
 		return read;
 	}
@@ -234,6 +249,7 @@ void unpackMessage(uint8_t * message,uint8_t lenMes,uint8_t * payload)
 
 		case 3: // long frame >255
 			#ifdef DEBUG
+			lenPayload = 0; // To remove warning unused
 			usart1_printf("long frame are not yet supported \n");
 			#endif
 

@@ -11,6 +11,19 @@
 #include "buffer.h"
 #include "crc.h"
 #include "datatypes.h"
+
+typedef struct  {
+		float Mot1_avgMotorCurrent;
+		float Mot2_avgMotorCurrent;
+		float Dul_avgInputCurrent;
+		long Mot1_rpm;
+		float Dual_inpVoltage;
+		float Dual_ampHours;
+		float Dual_ampHoursCharged;
+		long Mot1_tachometerAbs;
+	}Custom_dataPackage;
+
+
 /** Struct to store the telemetry data returned by the VESC */
 	typedef struct  {
 		float avgMotorCurrent;
@@ -33,7 +46,7 @@
 	}nunchuckPackage;
 	
 int packSendPayload(uint8_t * payload, int lenPay);
-bool processReadPacket(uint8_t * message);
+bool processReadPacket(uint8_t * message,dataPackage * data );
 bool getVescValues(void);
 bool getVescValuesfwd(uint8_t canID );
 void setNunchuckValues(void);

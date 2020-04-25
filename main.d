@@ -51,4 +51,7 @@ main.o: main.c \
  /home/pierre/stm32f103c8t6/libopencm3/include/libopencm3/stm32/f1/spi.h \
  /home/pierre/stm32f103c8t6/libopencm3/include/libopencm3/stm32/common/spi_common_l1f124.h \
  /home/pierre/stm32f103c8t6/libopencm3/include/libopencm3/stm32/common/spi_common_all.h \
- nrf24.h nRF24L01.h
+ nrf24.h nRF24L01.h \
+ /home/pierre/stm32f103c8t6/libopencm3/include/libopencm3/stm32/exti.h \
+ /home/pierre/stm32f103c8t6/libopencm3/include/libopencm3/stm32/f1/exti.h \
+ /home/pierre/stm32f103c8t6/libopencm3/include/libopencm3/stm32/common/exti_common_all.h

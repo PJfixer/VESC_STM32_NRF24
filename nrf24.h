@@ -45,6 +45,7 @@ void nrf24_powerUpTx(void);
 void nrf24_powerDown(void);
 void nrf24_enableDynamicPayload(void);
 uint8_t getAvailablePaySize(void);
+void nrf24_enableOnRX_interupt(void);
 
 void nrf24_TX(void *args);
 void nrf24_RX(void *args);

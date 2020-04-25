@@ -3,7 +3,13 @@
 #include "vesc/vesc.h"
 /*****************************************************SPI LINK SECTION : LINK THIS TO YOUR SPI + CE pin INTERFACE**********/
 
+//#define DEBUG
+
 extern nunchuckPackage nunchuck;
+extern int RPM_VESC;
+
+
+extern Custom_dataPackage Telemetry_data; //vesc
 
 uint8_t spi_transfer(uint8_t tx)
 {
@@ -337,6 +343,16 @@ uint8_t getAvailablePaySize(void)
 		 return 0;
 	 }
 	 return result;
+}
+
+void nrf24_enableOnRX_interupt(void)
+{
+	//1 read config register
+	 uint8_t config;
+	 nrf24_readRegister(CONFIG,&config,1);
+	 nrf24_configRegister(CONFIG,config|(0<<MASK_RX_DR));
+
+
 }
 
 
@@ -692,18 +708,66 @@ void nrf24_TX(void *args) {
 
 void nrf24_RX(void *args) {
 	(void)args;
-
+	uint8_t payload[32] ;
+	uint32_t  ulEventsToProcess;;
 	for(;;)
 	{
-		if(nrf24_dataReady())
+		// Block execution until notified
+		ulEventsToProcess = ulTaskNotifyTake(pdTRUE,pdMS_TO_TICKS( 1000UL ));
+		if(ulEventsToProcess  !=0)
 		{
-			uint8_t temp = getAvailablePaySize();
-			usart1_printf("%d bytes available \n ",temp);
+			if(nrf24_dataReady())
+			{
+				uint8_t temp = getAvailablePaySize();
+				#ifdef DEBUG
+				usart1_printf("%d bytes available \n ",temp);
+				#endif
+				nrf24_getData(payload,temp);
+				switch(payload[0])
+				{
+				case 1: // type nunchunk
+					memcpy(&nunchuck,&payload[1],(temp-1));
 
-			nrf24_getData(&nunchuck,temp);
+					#ifdef DEBUG
+					usart1_printf("nunchuck.valueX: %d \n",nunchuck.valueX);
+					usart1_printf("nunchuck.valueY: %d \n",nunchuck.valueY);
+					usart1_printf("nunchuck.upperButton: %s \n",nunchuck.upperButton ? "true" : "false");
+					usart1_printf("nunchuck.lowerButton: %s  \n",nunchuck.lowerButton ? "true" : "false");
+					#endif
+					taskENTER_CRITICAL();
+					setNunchuckValues();
+					taskEXIT_CRITICAL();
+				break;
+				case 2: //type rpm
+					memcpy(&RPM_VESC,&payload[1],(temp-1));
+					#ifdef DEBUG
+					usart1_printf("RPM value: %d \n",RPM_VESC);
+					#endif
+					taskENTER_CRITICAL();
+					VescUartSetRPM((int16_t)RPM_VESC);
+					VescUartSetRPMfwd((int16_t)RPM_VESC,90);
+					taskEXIT_CRITICAL();
+				break;
+				case 3://type get esc values
+					//TODO // send vesc data with semaphore protection
+					#ifdef DEBUG
+					usart1_printf("sending a %d bytes payload \n",sizeof(Telemetry_data));
+					#endif
+					nrf24_send(&Telemetry_data,sizeof(Telemetry_data));
+				break;
+
+				}
+
+			}
 
 		}
-		vTaskDelay(pdMS_TO_TICKS(3000));
+		else
+		{
+			usart1_printf("timeout \n");
+			VescUartSetRPM((int16_t)0);
+			VescUartSetRPMfwd((int16_t)0,90);
+		}
+		//vTaskDelay(pdMS_TO_TICKS(1500));
 	}
 }
 
