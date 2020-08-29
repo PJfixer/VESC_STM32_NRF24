@@ -3,7 +3,7 @@
 #include "vesc/vesc.h"
 /*****************************************************SPI LINK SECTION : LINK THIS TO YOUR SPI + CE pin INTERFACE**********/
 
-//#define DEBUG
+#define DEBUG
 
 extern nunchuckPackage nunchuck;
 extern int RPM_VESC;
@@ -709,7 +709,8 @@ void nrf24_TX(void *args) {
 void nrf24_RX(void *args) {
 	(void)args;
 	uint8_t payload[32] ;
-	uint32_t  ulEventsToProcess;;
+	uint32_t  ulEventsToProcess;
+	uint8_t temp ;
 	for(;;)
 	{
 		// Block execution until notified
@@ -749,11 +750,37 @@ void nrf24_RX(void *args) {
 					taskEXIT_CRITICAL();
 				break;
 				case 3://type get esc values
-					//TODO // send vesc data with semaphore protection
+
 					#ifdef DEBUG
 					usart1_printf("sending a %d bytes payload \n",sizeof(Telemetry_data));
 					#endif
 					nrf24_send(&Telemetry_data,sizeof(Telemetry_data));
+					while(nrf24_isSending())
+					{
+
+
+					}
+					temp = nrf24_lastMessageStatus();
+
+					if(temp == NRF24_TRANSMISSON_OK)
+					{
+						usart1_printf("> Tranmission went OK\r\n");
+					}
+					else if(temp == NRF24_MESSAGE_LOST)
+					{
+						usart1_printf("> Message is lost ...\r\n");
+					}
+
+					temp = nrf24_retransmissionCount();
+					usart1_printf("> Retranmission count: %d \n",temp);
+					vTaskDelay(pdMS_TO_TICKS(10));
+					// CRC enable, 1 byte CRC length
+					 nrf24_configRegister(CONFIG,((1<<EN_CRC)|(0<<CRCO)));
+					  // Start listening
+					 nrf24_powerUpRx();
+
+
+
 				break;
 
 				}
